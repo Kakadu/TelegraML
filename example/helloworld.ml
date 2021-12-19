@@ -9,4 +9,6 @@ Lwt_main.run begin
                      ~disable_notification:false
                      ~reply_to:None
                      ~reply_markup:None
+                     ~disable_web_page_preview:true
+                     ~parse_mode:None
 end

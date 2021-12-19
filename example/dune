@@ -1,0 +1,7 @@
+(executables
+ (names inline helloworld greet bot)
+ (modules inline helloworld greet bot)
+ (libraries telegraml lwt.unix lwt)
+ (preprocessor_deps ../chat.id ../bot.token)
+ (preprocess
+  (pps ppx_blob)))
